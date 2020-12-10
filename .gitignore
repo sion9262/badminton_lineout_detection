@@ -87,7 +87,7 @@ lint/tmp/
 
 # python
 python_detection/ckpt
-.idea/
-python_detection/.idea/
+.idea
+python_detection/.idea/workspace.xml
 # android model
 android/assets/tiny-yolo-4c.pb
