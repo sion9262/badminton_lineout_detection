@@ -83,3 +83,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+
+# python
+python_detection/ckpt
+
+# android model
+android/assets/tiny-yolo-4c.pb
