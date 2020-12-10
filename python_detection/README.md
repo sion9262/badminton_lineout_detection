@@ -27,6 +27,29 @@ Python : 3.6.8
     
     self.options ...
 
+## models
+
+아래 링크에서 ckpt folder 를 다운받으십시오.  
+[Goolge Drive Ckpt](https://drive.google.com/drive/folders/1na0qk9LLN-4bzys3KanZVPkzzl8Vk0xL?usp=sharing)
+
+    train step : 74242
+    train dataset : 4000
+    eval dataset : 500
+    test dataset : 500
+
+    accuracy : 463/500 (92.6%)
+    loss : 0.7435123 ...
+
+
+    
+
+
+![accuracy](./readme/accuracy.png)
+[predict]
+
+![trainloss](./readme/loss.png)
+[trainloss]
+
 ### Step 1
 
 아웃라인 설정  
@@ -38,7 +61,7 @@ Set out-line
 Click 4-point out-line  
 (Counterclockwise)  
 
-![step1]('./readme/step1.png)
+![step1](./readme/step1.png)
 
 AND 
 
@@ -50,21 +73,21 @@ PRESS Space
 셔틀콕이 Detection된 모든 위치를 확인합니다.  
 See all detection shuttlecock location.
 
-![step2]('./readme/step2.png)
+![step2](./readme/step2.png)
 
 ### Step 3
 
 아웃라인과 근접한 위치를 선택합니다.  
 Select the location closest to the out-line.
 
-![step3]('./readme/step3.png)
+![step3](./readme/step3.png)
 
 ### Step 4
 
 기울기 값이 감소에서 증가로 변하는 모든 변곡점을 찾습니다.   
 Find the slope where the inflection points changes from decreasing to increasing.
 
-![step4]('./readme/step4.png)
+![step4](./readme/step4.png)
 
 ### Step 5
 
@@ -72,7 +95,7 @@ Find the slope where the inflection points changes from decreasing to increasing
 
 Find the first inflection points.  
 
-![step5]('./readme/step5.png)
+![step5](./readme/step5.png)
 
 ### Step 6
 
@@ -80,4 +103,4 @@ Find the first inflection points.
 
 See result.
 
-![step6]('./readme/step6.png)
+![step6](./readme/step6.png)
